@@ -1,5 +1,3 @@
-import { getAllByPlaceholderText } from "@testing-library/react";
-import React from "react";
 import ToDo from "./ToDo"
 const ToDoList =({todos ,setodos, filteredTodos}) =>{
 

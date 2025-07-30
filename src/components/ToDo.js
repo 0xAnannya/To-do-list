@@ -1,4 +1,3 @@
-import React from "react";
 
 const ToDo = ({text,todo, todos ,setodos}) => {
 
