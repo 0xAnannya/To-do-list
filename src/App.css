@@ -64,6 +64,9 @@ form button:hover {
 .todo li {
   flex: 1;
 }
+.todo-button{
+  margin:10px
+}
 
 .trash-btn,
 .complete-btn {

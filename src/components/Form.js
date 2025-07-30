@@ -14,7 +14,6 @@ const submitToDoHandler= (e) =>{
   e.preventDefault();
   setinputData(e.target.value);
 
-  console.log("inputdata",inputdata)
 
  if (!inputdata || inputdata.trim() === "") return;
 
@@ -35,7 +34,7 @@ setstatus(e.target.value);
     <form onSubmit={submitToDoHandler}>
       <input value={inputdata}   onChange={inputHandler} type="text" className="todo-input" />
 
-      <button  className="todo-button" type="submit">
+      <button  className="todo-button" type="submit" >
 
         <i className="fas fa-plus-square"></i>
       </button>
